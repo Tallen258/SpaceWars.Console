@@ -13,8 +13,8 @@ class Program
         //***  V    V    V    V                                            V    V    V    V    V
         //**************************************************************************************
         const ConsoleKey forwardKey = ConsoleKey.W;
-        const ConsoleKey leftKey = ConsoleKey.LeftArrow;
-        const ConsoleKey rightKey = ConsoleKey.RightArrow;
+        const ConsoleKey leftKey = ConsoleKey.A;
+        const ConsoleKey rightKey = ConsoleKey.D;
         const ConsoleKey fireKey = ConsoleKey.Spacebar;
         const ConsoleKey clearQueueKey = ConsoleKey.C;
         const ConsoleKey infoKey = ConsoleKey.I;

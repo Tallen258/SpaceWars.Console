@@ -1,4 +1,4 @@
-﻿using SWConsole;
+﻿  using SWConsole;
 using System.Diagnostics;
 
 namespace SpaceWarsServices;
@@ -12,7 +12,7 @@ class Program
         //***  |    |    |    |       Change your key mappings here        |    |    |    |    |
         //***  V    V    V    V                                            V    V    V    V    V
         //**************************************************************************************
-        const ConsoleKey forwardKey = ConsoleKey.UpArrow;
+        const ConsoleKey forwardKey = ConsoleKey.W;
         const ConsoleKey leftKey = ConsoleKey.LeftArrow;
         const ConsoleKey rightKey = ConsoleKey.RightArrow;
         const ConsoleKey fireKey = ConsoleKey.Spacebar;

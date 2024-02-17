@@ -28,6 +28,7 @@ public class GameActions
             (Direction.Right, false) => heading + 1,
             (Direction.Left, true) => heading - 10,
             (Direction.Left, false) => heading - 1,
+
             _ => 0,//turn north if someone calls this with a bogus Direction
         };
         heading = ClampRotation(heading);
